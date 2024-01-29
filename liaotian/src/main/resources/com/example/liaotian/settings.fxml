@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" prefHeight="343.0" prefWidth="481.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.liaotian.SettingController">
+   <children>
+      <Label text="appid" />
+      <TextField fx:id="Field01" />
+      <Label text="apiSecret" />
+      <TextField fx:id="Field02" />
+      <Label text="apiKey" />
+      <TextField fx:id="Field03" />
+      <Button mnemonicParsing="false" onAction="#Go" text="确认" />
+   </children>
+</VBox>
